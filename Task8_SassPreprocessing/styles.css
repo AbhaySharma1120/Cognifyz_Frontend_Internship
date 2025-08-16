@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+body section {
+  padding: 30px;
+}
+body section p {
+  font-size: 18px;
+}
+body footer {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+// Variable
+$primary-color: #3498db;
+$font-color: #333;
+$font-family: Arial, sans-serif;
+
+//Nesting & structure
+body{
+    font-family: $font-family;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: $font-color;
+
+
+header{
+    background-color: $primary-color;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    padding: 30px;
+    p{
+        font-size: 18px;
+    }
+}
+
+footer{
+    background-color: darken($primary-color, 10%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+}
